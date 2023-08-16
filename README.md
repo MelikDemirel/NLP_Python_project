@@ -32,9 +32,7 @@ Language model that detects whether the sentence entered by the user is positive
     
     <p>For more information about the project, please refer to the code file and comments. Enjoy exploring the project!</p>
 </body>
-</html>
 
-<html>
 <head>
     <title>Dil Modeli ile Duygu Analizi</title>
 </head>
