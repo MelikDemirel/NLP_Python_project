@@ -10,16 +10,13 @@ Language model that detects whether the sentence entered by the user is positive
     <p>This project includes a language model that analyzes sentences entered by the user to determine whether the sentence is positive or negative. The model involves cleaning and preprocessing text data, creating and training an artificial neural network using TensorFlow and other relevant libraries.</p>
     
     <h2>Used Libraries</h2>
-    <ul>
         <li>pandas: Used for data processing and manipulation.</li>
         <li>BeautifulSoup: Used to clean HTML tags from text data.</li>
         <li>tqdm: Used to create progress bars and track the progress of operations.</li>
         <li>scikit-learn: Used to split the dataset into training and testing data.</li>
         <li>TensorFlow: Used to create, compile, and train the artificial neural network model.</li>
-    </ul>
 
     <h2>Project Steps</h2>
-    <ol>
         <li><strong>Data Loading and Cleaning:</strong> The dataset is loaded from an Excel file, and HTML tags are removed.</li>
         <li><strong>Preprocessing:</strong> After cleaning the text data, words are represented numerically and transformed into a DataFrame.</li>
         <li><strong>Label Preparation:</strong> Sentence labels are organized and transformed into numerical values for positive and negative sentiment.</li>
@@ -28,7 +25,6 @@ Language model that detects whether the sentence entered by the user is positive
         <li><strong>Model Compilation:</strong> The model is compiled, and optimization and loss functions are defined for the training process.</li>
         <li><strong>Model Training:</strong> The model is trained using the training data.</li>
         <li><strong>Prediction and Results:</strong> A sentence is taken from the user, cleaned, and a prediction is made using the model. Based on the prediction, it is determined whether the sentence is positive or negative.</li>
-    </ol>
     
     <p>For more information about the project, please refer to the code file and comments. Enjoy exploring the project!</p>
 </body>
