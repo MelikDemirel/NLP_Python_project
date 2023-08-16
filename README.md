@@ -1,62 +1,57 @@
 # NLP_Python_project
 Language model that detects whether the sentence entered by the user is positive or negative / kullanıcı tarafında girilen cümlenin olumlu mu olumsuz mu olduğunu tespit eden dil modeli
 
-<html>
-<head>
-    <title>Sentiment Analysis with Language Model</title>
-</head>
-<body>
-    <h1>Sentiment Analysis with Language Model</h1>
-    <p>This project includes a language model that analyzes sentences entered by the user to determine whether the sentence is positive or negative. The model involves cleaning and preprocessing text data, creating and training an artificial neural network using TensorFlow and other relevant libraries.</p>
-    
-    <h2>Used Libraries</h2>
-        <li>pandas: Used for data processing and manipulation.</li>
-        <li>BeautifulSoup: Used to clean HTML tags from text data.</li>
-        <li>tqdm: Used to create progress bars and track the progress of operations.</li>
-        <li>scikit-learn: Used to split the dataset into training and testing data.</li>
-        <li>TensorFlow: Used to create, compile, and train the artificial neural network model.</li>
+<p><strong>Sentiment Analysis with Language Model</strong></p>
 
-    <h2>Project Steps</h2>
-        <li><strong>Data Loading and Cleaning:</strong> The dataset is loaded from an Excel file, and HTML tags are removed.</li>
-        <li><strong>Preprocessing:</strong> After cleaning the text data, words are represented numerically and transformed into a DataFrame.</li>
-        <li><strong>Label Preparation:</strong> Sentence labels are organized and transformed into numerical values for positive and negative sentiment.</li>
-        <li><strong>Data Splitting:</strong> The dataset is split into training and testing data.</li>
-        <li><strong>Model Creation:</strong> An artificial neural network model is constructed, comprising an input layer, hidden layers, and an output layer.</li>
-        <li><strong>Model Compilation:</strong> The model is compiled, and optimization and loss functions are defined for the training process.</li>
-        <li><strong>Model Training:</strong> The model is trained using the training data.</li>
-        <li><strong>Prediction and Results:</strong> A sentence is taken from the user, cleaned, and a prediction is made using the model. Based on the prediction, it is determined whether the sentence is positive or negative.</li>
-    
-    <p>For more information about the project, please refer to the code file and comments. Enjoy exploring the project!</p>
-</body>
+<p>This project involves a language model that analyzes user-entered sentences to determine their positive or negative sentiment. The process includes text data cleaning and preprocessing, as well as creating and training an artificial neural network using TensorFlow and other relevant libraries.</p>
 
-<head>
-    <title>Dil Modeli ile Duygu Analizi</title>
-</head>
-<body>
-    <h1>Dil Modeli ile Duygu Analizi</h1>
-    <p>Bu proje, kullanıcı tarafından girilen cümleleri analiz ederek cümlenin olumlu mu yoksa olumsuz mu olduğunu belirleyen bir dil modelini içermektedir. Model, metin verilerini temizleme ve önişleme işlemleri yapmak, TensorFlow ve diğer ilgili kütüphaneler kullanarak yapay sinir ağı modeli oluşturma ve eğitme işlemlerini içermektedir.</p>
-    
-    <h2>Kullanılan Kütüphaneler</h2>
-    <ul>
-        <li>pandas: Veri işleme ve manipülasyonu için kullanılmıştır.</li>
-        <li>BeautifulSoup: Metin verilerinden HTML etiketlerini temizlemek için kullanılmıştır.</li>
-        <li>tqdm: İlerleme çubukları oluşturmak ve işlemlerin ilerleyişini takip etmek için kullanılmıştır.</li>
-        <li>scikit-learn: Veri setini eğitim ve test verilerine ayırmak için kullanılmıştır.</li>
-        <li>TensorFlow: Yapay sinir ağı modeli oluşturmak, derlemek ve eğitmek için kullanılmıştır.</li>
-    </ul>
+<ul>
+  <li><strong>Libraries Used:</strong></li>
+  <ul>
+    <li><code>pandas</code>: Utilized for data processing and manipulation.</li>
+    <li><code>BeautifulSoup</code>: Employed to cleanse HTML tags from text data.</li>
+    <li><code>tqdm</code>: Used to generate progress bars and monitor operation progress.</li>
+    <li><code>scikit-learn</code>: Used to split the dataset into training and testing data.</li>
+    <li><code>TensorFlow</code>: Utilized for creating, compiling, and training the artificial neural network model.</li>
+  </ul>
+  
+  <li><strong>Project Steps:</strong></li>
+  <ol>
+    <li><strong>Data Loading and Cleaning:</strong> Load the dataset from an Excel file and remove HTML tags.</li>
+    <li><strong>Preprocessing:</strong> After cleaning text data, convert words into numerical representations and transform into a DataFrame.</li>
+    <li><strong>Label Preparation:</strong> Organize sentence labels and convert them into numerical values for positive and negative sentiment.</li>
+    <li><strong>Data Splitting:</strong> Split the dataset into training and testing data.</li>
+    <li><strong>Model Creation:</strong> Construct an artificial neural network model with input, hidden, and output layers.</li>
+    <li><strong>Model Compilation:</strong> Compile the model, defining optimization and loss functions for training.</li>
+    <li><strong>Model Training:</strong> Train the model using the training data.</li>
+    <li><strong>Prediction and Results:</strong> Take a user-input sentence, clean it, and make a prediction using the model. Determine whether the sentence is positive or negative based on the prediction.</li>
+  </ol>
+</ul>
 
-    <h2>Proje Adımları</h2>
-    <ol>
-        <li><strong>Veri Yükleme ve Temizleme:</strong> İlk olarak, veri kümesi bir Excel dosyasından yüklenir ve HTML etiketleri temizlenir.</li>
-        <li><strong>Önişleme:</strong> Metin verileri temizlendikten sonra, kelimeler sayısal olarak temsil edilir ve bir DataFrame'e dönüştürülür.</li>
-        <li><strong>Etiket Hazırlama:</strong> Cümle etiketleri düzenlenir ve olumlu/negatif etiketler sayısal değerlere dönüştürülür.</li>
-        <li><strong>Veri Ayırma:</strong> Veri kümesi eğitim ve test verilerine ayrılır.</li>
-        <li><strong>Model Oluşturma:</strong> Bir yapay sinir ağı modeli oluşturulur. Girdi katmanı, gizli katmanlar ve çıktı katmanı içerir.</li>
-        <li><strong>Model Derleme:</strong> Model derlenir ve eğitim süreci için optimizasyon fonksiyonu ve kayıp fonksiyonu belirlenir.</li>
-        <li><strong>Model Eğitimi:</strong> Model eğitim verileri kullanılarak eğitilir.</li>
-        <li><strong>Tahmin ve Sonuç:</strong> Kullanıcıdan bir cümle alınır, bu cümle temizlenir ve model üzerinde tahmin yapılır. Elde edilen tahmin sonucuna göre cümlenin olumlu mu yoksa olumsuz mu olduğu belirlenir.</li>
-    </ol>
-    
-    <p>Projeye dair daha fazla bilgi için lütfen kod dosyasına ve yorum satırlarına başvurun. Projeyi keşfetmeye hoş geldiniz!</p>
-</body>
-</html>
+
+<p><strong>Dil Modeli ile Duygu Analizi</strong></p>
+
+<p>Bu proje, kullanıcı tarafından girilen cümleleri analiz ederek cümlenin pozitif veya negatif duygusunu belirleyen bir dil modelini içermektedir. Süreç, metin verilerini temizleme ve önişleme işlemlerini içermekte, aynı zamanda TensorFlow ve diğer ilgili kütüphaneleri kullanarak yapay sinir ağı modeli oluşturmayı ve eğitmeyi içermektedir.</p>
+
+<ul>
+  <li><strong>Kullanılan Kütüphaneler:</strong></li>
+  <ul>
+    <li><code>pandas</code>: Veri işleme ve manipülasyon için kullanılmıştır.</li>
+    <li><code>BeautifulSoup</code>: Metin verilerinden HTML etiketlerini temizlemek için kullanılmıştır.</li>
+    <li><code>tqdm</code>: İlerleme çubukları oluşturmak ve işlemlerin ilerleyişini takip etmek için kullanılmıştır.</li>
+    <li><code>scikit-learn</code>: Veri setini eğitim ve test verilerine ayırmak için kullanılmıştır.</li>
+    <li><code>TensorFlow</code>: Yapay sinir ağı modeli oluşturmak, derlemek ve eğitmek için kullanılmıştır.</li>
+  </ul>
+  
+  <li><strong>Proje Adımları:</strong></li>
+  <ol>
+    <li><strong>Veri Yükleme ve Temizleme:</strong> Veri kümesini bir Excel dosyasından yükleyin ve HTML etiketlerini kaldırın.</li>
+    <li><strong>Önişleme:</strong> Metin verilerini temizledikten sonra kelimeleri sayısal temsillere dönüştürün ve bir DataFrame'e aktarın.</li>
+    <li><strong>Etiket Hazırlama:</strong> Cümle etiketlerini düzenleyin ve pozitif ve negatif duygular için sayısal değerlere dönüştürün.</li>
+    <li><strong>Veri Ayırma:</strong> Veri kümesini eğitim ve test verilerine bölin.</li>
+    <li><strong>Model Oluşturma:</strong> Girdi, gizli ve çıktı katmanlarından oluşan bir yapay sinir ağı modeli oluşturun.</li>
+    <li><strong>Model Derleme:</strong> Modeli derleyin, eğitim için optimizasyon ve kayıp fonksiyonlarını tanımlayın.</li>
+    <li><strong>Model Eğitimi:</strong> Modeli eğitim verileri kullanarak eğitin.</li>
+    <li><strong>Tahmin ve Sonuç:</strong> Kullanıcıdan bir cümle alın, temizleyin ve modeli kullanarak bir tahmin yapın. Tahmine dayanarak cümlenin pozitif veya negatif olup olmadığını belirleyin.</li>
+  </ol>
+</ul>
